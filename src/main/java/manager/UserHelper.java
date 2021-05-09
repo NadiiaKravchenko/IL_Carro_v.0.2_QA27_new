@@ -20,7 +20,7 @@ public class UserHelper extends HelperBase {
     }
 
     public void clickLoginButton() {
-        click(By.xpath("//button[text()='Y’alla!']"));
+        click(By.cssSelector("button[type='submit']"));
 
     }
 
